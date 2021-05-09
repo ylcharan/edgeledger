@@ -1,0 +1,37 @@
+#what .items {
+    display: block;
+    padding: 1rem;
+}
+
+#what .items .item {
+    display: flex;
+    text-align: left;
+}
+
+#what .items .item i {
+    margin: 0 1.3rem 0 0;
+    align-self: start;
+}
+
+@media (max-width: 500px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    #navbar .logo {
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+    #showcase .showcase-content {
+        top: 95px;
+    }
+    #who {
+        display: block;
+    }
+    #who .who-img {
+        background-image: none;
+    }
+    #clients .items img {
+        width: 80%;
+    }
+}
